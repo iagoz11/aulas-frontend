@@ -27,4 +27,8 @@ for (let elemento of elementosFake){
     }
 }
 
-elementosFake.forEach(elemento => console.log(elemento.tagName));
+elementosFake.forEach(elemento => {
+  console.log(
+    `Tag: ${elemento.tagName} Quantidade de classes: ${elemento.classList.length} Classes: ${elemento.classList.join(', ')}`
+  );
+});
