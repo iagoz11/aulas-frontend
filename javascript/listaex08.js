@@ -5,4 +5,4 @@ function imprimirNomes(nomes) {
   }
 }
 
-imprimirNomes(["Ana", "João", "Maria", "Carlos"]);
+imprimirNomes(["ana", "joao", "maria", "carlos"]);
